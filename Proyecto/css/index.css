@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    margin: 0px;
+}
+header{
+    background-image: url(../media/fondo2.png);
+    background-color: #cccccc;
+    background-size: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poor Story', cursive;
+    font-size: 23px;
+}
+.contenido{
+    display: flex;
+    justify-content: center;    
+}
+article{
+    margin: 30px;
+    padding: auto;
+    width: 400px;
+    font-family: 'Poppins', sans-serif;
+}
+.photo_perfil{
+    height: 230px;
+    border-radius: 40%;
+    margin-top: 40px
+}
+.contactanos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#text_conta, h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    height: 35px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+#text_logos{
+    justify-content: space-around;  
+    display: flex;
+    
+}
+button{
+    background-color: transparent;
+    color: white;
+    border: white;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 25%;
+}
+
+

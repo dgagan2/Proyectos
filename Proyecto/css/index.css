@@ -4,6 +4,10 @@
 body{
     margin: 0px;
 }
+h1{
+    font-size: 36px;
+    margin: 10px;
+}
 header{
     background-image: url(../media/fondo2.png);
     background-color: #cccccc;
@@ -13,38 +17,49 @@ header{
     flex-direction: column;
     align-items: center;
     font-family: 'Poor Story', cursive;
-    font-size: 23px;
+    font-size: 20px;    
+}
+nav *{
+    display: inline;
+    color: white;
+    font-size: 30px;
+    
 }
 .contenido{
     display: flex;
     justify-content: center;    
 }
 article{
-    margin: 30px;
+    margin: 20px;
     padding: auto;
     width: 400px;
     font-family: 'Poppins', sans-serif;
 }
 .photo_perfil{
-    height: 230px;
+    height: 210px;
     border-radius: 40%;
-    margin-top: 40px
+    margin-top: 10px
 }
 .contactanos{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 10px;
 }
-#text_conta, h2{
+h2{
     display: flex;
     justify-content: center;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin: 5px;
+}
+#text_conta{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+    margin-top: 2px;
     font-family: 'Poppins', sans-serif;
+    font-size: 13px;
 }
 img{
-    height: 35px;
+    height: 25px;
 }
 footer{
     display: flex;
@@ -53,15 +68,8 @@ footer{
     left: 0;
     right: 0;
     bottom: 0;
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: white;
-}
-#text_logos{
-    justify-content: space-around;  
-    display: flex;
-    
 }
 button{
     background-color: transparent;
@@ -69,7 +77,6 @@ button{
     border: white;
     border-style: solid;
     padding: 10px;
+    margin: 5px;
     border-radius: 25%;
 }
-
-

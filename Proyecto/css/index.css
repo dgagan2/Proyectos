@@ -10,20 +10,29 @@ h1{
 }
 header{
     background-image: url(../media/fondo2.png);
-    background-color: #cccccc;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: 'Poor Story', cursive;
-    font-size: 20px;    
+    font-size: 20px;
 }
-nav *{
-    display: inline;
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;    
+}
+.lista_nav *{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    text-decoration: none;
     color: white;
-    font-size: 30px;
-    
 }
 .contenido{
     display: flex;
@@ -35,7 +44,7 @@ article{
     width: 400px;
     font-family: 'Poppins', sans-serif;
 }
-.photo_perfil{
+.image-profile{
     height: 210px;
     border-radius: 40%;
     margin-top: 10px
@@ -45,10 +54,19 @@ article{
     justify-content: space-around;
     align-items: center;
 }
-h2{
+h2,h3{
     display: flex;
     justify-content: center;
     margin: 5px;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+h3{
+    font-size: 30px;
+    font-family: 'Poor Story', cursive;
+    color: white;    
 }
 #text_conta{
     display: flex;

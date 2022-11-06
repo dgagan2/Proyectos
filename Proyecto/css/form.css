@@ -1,0 +1,16 @@
+
+.container-form{
+    display: block;
+}
+.form-group{
+    align-items: center;
+    font-weight: bold;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col-md-8{
+    margin-top: 40px;
+}

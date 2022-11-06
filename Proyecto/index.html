@@ -12,7 +12,7 @@
 </head>
 <body>
     <!--Empieza Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">MI CV</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -22,7 +22,7 @@
             <li class="nav-item active">
               <a class="nav-link" href="cabecera">Inicio<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="/form/form.html">Contactanos</a>
             </li>
         </div>
@@ -31,71 +31,81 @@
 
     <!--Empieza header -->
     <header id="cabecera">
-       <div class="container mt-5">
+       <div class="container mt-3">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="img-profile">
-                        <img  class="image-profile" src="./media/perfil.jpg" alt="image-profile"/>
-                        <h1>Deibi Arias</h1>
-                        <p>Ingeniero de Sistema || Programador Full Stack en proceso 💻 || Deportista</p>   
+                <div class="col-md-12"> 
+                    <img  class="image-profile" src="./media/perfil.jpg" alt="image-profile"/>
+                    <h1>Deibi Arias</h1>
+                    <p>Ingeniero de Sistema || Programador Full Stack en proceso 💻 || Deportista</p>   
+                </div>
+            </div>
+       </div>      
+    </header>
+    <!--Termina header-->
+
+    <!--Empieza main-->
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <article class="main-content-left">
+                        <h2>Acerca de mi</h2>
+                        <p>Yo soy una persona que le gusta aprender cosas nuevas y trabajar en mis proyectos, conocer diversos lugares</p>
+                    </article>
+                </div>
+                <div class="col-md-6">
+                    <article class="main-content-right"> 
+                        <h2>SKILLS</h2>  
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, dicta.</li>
+                            <li>li  Lorem ipsum dolor sit amet consectetur.</li>
+                            <li>Dolor distinctio voluptates libero explicabo itaque?</li>
+                            <li>Autem numquam rem error hic incidunt.</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>            
+        </div>
+    </main>
+    <!--Termina Main-->
+    <!--Inicia footer-->
+    <footer>
+        <div class="container-footer">
+            <div class="row-footer">
+                <div class="col-md-12-text_conta">
+                    <p>Contactanos por los siguientes medios</p>
+                </div>
+                <div class="col-md-12-footer">
+                    <div class="col-md-4">
+                        <div class="formulario">
+                            <a href="./form/form.html"><button style="padding:2px;">Formulario</button></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="redes">
+                            <a href="https://es-la.facebook.com/" target="_blank">
+                                <img src="./media/facebook.png" alt="go_to_facebook">
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <img src="./media/instagram.png" alt="go_to_instagram">
+                            </a>
+                            <a href="https://co.linkedin.com/" target="_blank">
+                                <img src="./media/linkedin.png" alt="go_to_linkedin">
+                            </a>    
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="mail">
+                            <a href="mailto:xxxxx@hotmail.com">
+                                <img src="./media/correo.png" alt="send_email">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-
-       </div>
-        <!-- <nav class="navbar">
-            <a href="#"><h3>MI CV</h3></a>
-            <ul class="lista_nav">
-                <li><a href="">Home</a></li>
-                <li><a href="./form/form.html">Contactanos</a></li>
-            </ul>         
-        </nav> -->
-            
-    </header>
-    <!--Termina header-->
-    <!--Empieza main-->
-    <main>
-        <div class="contenido">
-            <article>
-                <h2>Acerca de mi</h2>
-                <p>Yo soy una persona que le gusta aprender cosas nuevas y trabajar en mis proyectos, conocer diversos lugares</p>
-            </article>
-            <article> 
-                <h2>SKILLS</h2>  
-                <ul>
-                    <li>a</li>
-                    <li>a</li>
-                    <li>a</li>
-                    <li>a</li>
-                    <li>a</li>
-                </ul>
-            </article>
-        </div>
-    </main>
-    <footer>
-        <p id="text_conta">Contactanos por los siguientes medios</p>
-        <div class="contactanos">
-            <div>
-                <a href="./form/form.html"><button>Formulario</button></a>
-            </div>
-            <div>   
-                <a href="https://es-la.facebook.com/" target="_blank">
-                    <img src="./media/facebook.png" alt="go_to_facebook">
-                </a>
-                <a href="https://www.instagram.com/" target="_blank">
-                    <img src="./media/instagram.png" alt="go_to_instagram">
-                </a>
-                <a href="https://co.linkedin.com/" target="_blank">
-                    <img src="./media/linkedin.png" alt="go_to_linkedin">
-                </a>               
-            </div>
-            <div>
-                <a href="mailto:xxxxx@hotmail.com">
-                    <img src="./media/correo.png" alt="send_email">
-                </a>
-            </div>
         </div>
     </footer>
+    <!--Termina footer-->
 <!--scrip bostrap-->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

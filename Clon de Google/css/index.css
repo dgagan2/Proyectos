@@ -1,0 +1,60 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 2552, 255);
+}
+.container a{
+    text-decoration: none;
+    list-style: none;
+    color: rgba(0,0,0,.87);
+    font-family: arial,sans-serif;
+}
+.menu-puntos{
+    height: 20px;
+    width: 20px;
+}
+.col-md-12{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 13px;
+}
+.container{
+    margin-right: 3px;
+}
+.row-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.logo-google{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+input{
+    border-color:gainsboro;
+    border-style: solid;
+    width: 100%;
+    padding: 10px;
+}
+.md-col-8-botones{
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+.md-col-8-botones button{
+    margin-left: 10px;
+    border-radius: 10%;
+    border-style: none;
+    background-color: ghostwhite;
+    color: dimgrey;
+    font-family: arial,sans-serif;
+    padding: 15px 20px 15px 20px;
+    
+}
+.col-md-4{
+    display: contents;
+    margin-left: 5px;
+}
+    

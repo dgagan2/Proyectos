@@ -86,6 +86,7 @@ button{
     border-style: solid;
     padding: 10px;
     border-radius: 15%;
+    margin-bottom: 3px;
 }
 @media (min-width: 768px){
     .col-md-6 {

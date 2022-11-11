@@ -32,6 +32,7 @@ header a{
     margin-top: 10px;
     font-size: 13px;
 }
+/*termina header*/
 .row-main{
     display: flex;
     flex-direction: column;
@@ -106,6 +107,7 @@ input:focus{
     color: #1a0dab;
     font-size: 13px;
 }
+/*Termina main*/
 footer{
     position: fixed;
     bottom: 0px;
